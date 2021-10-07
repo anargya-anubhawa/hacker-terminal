@@ -140,7 +140,7 @@ var ddos = function() {
     $('.commandLine').toggleClass('hidden')
     
     var ddos = new Typed('.lineSent span', {
-         strings : [$('.lineSent span').text(),'Initializing...<br>Loading Interface...<br>Securing Connection...<br>Initializing DDOS attack...<br>Obtaining server IP<br>D O N E<br><br>Server IP: 198.162.0.7:2222<br>Packet Size: 971628628 bytes<br>estimated time: 13 second<br><br<br>'],
+         strings : [$('.lineSent span').text(),'Initializing...<br>Loading Interface...<br>Securing Connection...<br>Initializing DDOS attack...<br>Obtaining server IP<br>D O N E<br><br>Server IP: 198.162.0.7:2222<br>Packet Size: 971628628 bytes<br>estimated time: 13 second<br><br>'],
         stringsElement: null, 
         backSpeed: 10,
         smartBackspace: true,
@@ -157,7 +157,7 @@ var ddos = function() {
 var ddos2 = function() {
     
     var ddos2 = new Typed('.lineSent span', {
-         strings : [$('.lineSent span').text(),'Initializing...<br>Loading Interface...<br>Securing Connection...<br>Initializing DDOS attack...<br>Obtaining server IP<br>D O N E<br><br>Server IP: 198.162.0.7:2222<br>Packet Size: 971628628 bytes<br><br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br><br><b>S E R V E R__D O W N</b>'],
+         strings : [$('.lineSent span').text(),'Initializing...<br>Loading Interface...<br>Securing Connection...<br>Initializing DDOS attack...<br>Obtaining server IP<br>D O N E<br><br>Server IP: 198.162.0.7:2222<br>Packet Size: 971628628 bytes<br>estimated time: 13 second<br><br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br><br><b>S E R V E R__D O W N</b>'],
         stringsElement: null, 
         backSpeed: 10,
         smartBackspace: true,
