@@ -6,7 +6,7 @@ window.addEventListener('resize', resizeCanvas, false)
 
 function printWelcome() {
   var welcomemsg = new Typed('.welcomemsg',{
-        strings : ["Welcome to Hacker Terminal  <br>This code is just for fun, this is not a real terminal hacker, 99% of everything is just UI. "],
+        strings : ["Welcome to Hacker Terminal  <br>This code is just for fun, this is not a real hacker terminal, 99% of everything is just UI. "],
         stringsElement: null, 
         typeSpeed: 70, 
         backSpeed: 60,
@@ -53,9 +53,9 @@ var makeConnection = function() {
     $('.commandLine').toggleClass('hidden')
     
     var connection = new Typed('.lineSent span', {
-         strings : [$('.lineSent span').text(),'Initializing...<br>  Done<br>Loading Interface...<br>Decrypting Data...<br>Securing Connection...<br>Connecting...<br>Initializing Server...<br>Authenticating...Obtaining Keypass...<br>Connection Successful.<br>Initializing...<br> Done<br><br><b>Server Diagnostics:</b><br>IP: <e>198.162.0.7:2222</e><br>Gateway: <e>225.225.225 <i>0 <i>Flags <i>up</i><br>Server_Address: <i>175.297.64.75</i><br>Username: <i>Anonymous</e><br>Password: <i>eT3%p@e</e>'],
+         strings : [$('.lineSent span').text(),'Initializing...<br>  Done<br>Loading Interface...<br>Decrypting Data...<br>Securing Connection...<br>Connecting...<br>Initializing Server...<br>Authenticating...<br>Obtaining Keypass...<br>Connection Successful.<br>Initializing...<br> Done<br><br><b>Server Diagnostics:</b><br>IP: <e>198.162.0.7:2222</e><br>Gateway: <e>225.225.225 <i>0 <i>Flags <i>up</i><br>Server_Address: <i>175.297.64.75</i><br>Username: <i>Anonymous</e><br>Password: <i>eT3%p@e</e>'],
         stringsElement: null, 
-        backSpeed: 10,
+        backSpeed: -10,
         smartBackspace: true,
         typeSpeed: 50, 
         showCursor: true,
@@ -120,9 +120,9 @@ var randomIP = function() {
 var about = function() {
     $('.commandLine').toggleClass('hidden')
     
-    var about = new Typed('.lineSent span', {         strings : [$('.lineSent span').text(),'<b>About</b><br>Created by: <i>Anargya Anubhawa</i><br>Created on: <i>6 October 2021</i><br>Technology: <i>HTML, CSS, JS</i><br>lib: >Typed, jQuery</i>'],
+    var about = new Typed('.lineSent span', {         strings : [$('.lineSent span').text(),'<b>About</b><br>Created by: <i>Anargya Anubhawa</i><br>Created on: <i>6 October 2021</i><br><i>Last update: 7 October 2021</i<br>Technology: <i>HTML, CSS, JS</i><br>lib: >Typed, jQuery</i>'],
         stringsElement: null, 
-        backSpeed: 10,
+        backSpeed: -10,
         smartBackspace: true,
         typeSpeed: 50, 
         showCursor: true,
@@ -142,7 +142,7 @@ var ddos = function() {
     var ddos = new Typed('.lineSent span', {
          strings : [$('.lineSent span').text(),'Initializing...<br>Loading Interface...<br>Securing Connection...<br>Initializing DDOS attack...<br>Obtaining server IP<br>D O N E<br><br>Server IP: 198.162.0.7:2222<br>Packet Size: 971628628 bytes<br>estimated time: 13 second<br><br>'],
         stringsElement: null, 
-        backSpeed: 10,
+        backSpeed: -10,
         smartBackspace: true,
         typeSpeed: 50, 
         showCursor: true,
@@ -159,7 +159,7 @@ var ddos2 = function() {
     var ddos2 = new Typed('.lineSent span', {
          strings : [$('.lineSent span').text(),'Initializing...<br>Loading Interface...<br>Securing Connection...<br>Initializing DDOS attack...<br>Obtaining server IP<br>D O N E<br><br>Server IP: 198.162.0.7:2222<br>Packet Size: 971628628 bytes<br>estimated time: 13 second<br><br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br>attacking 198.162.0.7:2222 packet size: 971628628 bytes<br><br><b>S E R V E R__D O W N</b>'],
         stringsElement: null, 
-        backSpeed: 10,
+        backSpeed: -10,
         smartBackspace: true,
         typeSpeed: 5, 
         showCursor: true,
@@ -179,7 +179,7 @@ var virus = function() {
     var send_virus = new Typed('.lineSent span', {
          strings : [$('.lineSent span').text(),'Initializing...<br>  <e>Done<e><br>Loading Interface...<br>Decrypting Data...<br>Securing Connection...<br>Connecting...<br>Initializing Server...<br>Authenticating...<br>Obtaining Keypass...<br><i>Connection Successful.</i><br>Sending Virus...<br>Successfully send the virus'],
         stringsElement: null, 
-        backSpeed: 10,
+        backSpeed: -10,
         smartBackspace: true,
         typeSpeed: 60, 
         showCursor: true,
@@ -224,9 +224,9 @@ var browser = function() {
     var info8=('<br><br><b>user-agent:</b> ')+navigator.userAgent
     
     var browser_info = new Typed('.lineSent span', {
-         strings : [$('.lineSent span').text(),'Getting browser info...<br>success getting browser info<br><br>'+info1+info2+info3+info4+info5+info6+info7+info8],
+         strings : [$('.lineSent span').text(),'Getting browser info...<br>Success getting browser info<br><br>'+info1+info2+info3+info4+info5+info6+info7+info8],
         stringsElement: null, 
-        backSpeed: 10,
+        backSpeed: -10,
         smartBackspace: true,
         typeSpeed: 50, 
         showCursor: true,
@@ -259,9 +259,9 @@ var screen = function() {
     var info6=('<br><br><b>resolution:</b> '+i6)
     
     var screen_info = new Typed('.lineSent span', {
-         strings : [$('.lineSent span').text(),'Getting screem info...<br>success getting screen info<br><br>'+info1+info2+info3+info4+info5+info6],
+         strings : [$('.lineSent span').text(),'Getting screen info...<br>Success getting screen info<br><br>'+info1+info2+info3+info4+info5+info6],
         stringsElement: null, 
-        backSpeed: 10,
+        backSpeed: -10,
         smartBackspace: true,
         typeSpeed: 50, 
         showCursor: true,
@@ -276,7 +276,7 @@ var screen = function() {
 }
 
 var manageCommands = function(command) {
-    var lineString = 'root@hacker-workstation# '
+    var lineString = '<br>root@hacker~anonymous# '
     var exit
     
     switch(command.toLowerCase()) {
@@ -291,33 +291,31 @@ var manageCommands = function(command) {
             $('.lineSent span').text("")
             break
         case 'engage':
-            hacking()
+            hacking(lineString + command)
             break
         case 'randomize ip':
-            randomIP()
+            randomIP(lineString + command)
             break
         case 'about':
-            about()
+            about(lineString + command)
             break
         case 'browser info':
-            browser()
+            browser(lineString + command)
             break
         case 'screen info':
-            screen()
+            screen(lineString + command)
             break
         case 'send virus':
-            virus()
+            virus(lineString + command)
             break
         case 'hack server':
-            hackserv()
+            hackserv(lineString + command)
             break
         case 'ddos':
-            ddos()
+            ddos(lineString + command)
             break
         case 'nuke':
-            nuke()
-        case 'nuked':
-            $('.lineSent span').nuked("Anonymous")
+            nuke(lineString + command)
             break
         default: printCommand(lineString + throwException(command))
     }
@@ -343,13 +341,6 @@ var commandLine = function() {
             $(this).val("");
         }
         $('#cmd span').text($(this).val())
-    })
-    $('input').keyup(function(e) {
-        if (e.keyCode == 13) {
-            manageCommands($('#cmd span').nuked())
-            $(this).val("anonymous");
-        }
-        $('#cmd span').nuked($(this).val())
     })
 }
 
