@@ -3,7 +3,7 @@
 # Hacker Terminal
 Hacker terminal made like the Kali Linux terminal. I made this just for fun, 99% of everything is just UI.
 
-[Github Pages](https://anargya-anubhawa.github.io/hacker-terminal/ "Github Pages")
+[Github Pages](https://anargya-anubhawa.github.io/hacker-terminal/ "Github Pages") Compatible on Android
 
 # Command list
 
