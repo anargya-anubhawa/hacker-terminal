@@ -1,7 +1,9 @@
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fanargya-anubhawa%2Fhacker-terminal&count_bg=%236B8FF6&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Repository+Views&edge_flat=false)](https://hits.seeyoufarm.com)
-<h1> Hacker Terminal</h1>
-<p>Hacker terminal made like the Kali Linux terminal. I made this just for fun, 99% of everything is just UI.</p>
+# Hacker Terminal
+Hacker terminal made like the Kali Linux terminal. I made this just for fun, 99% of everything is just UI.
+
+[Github Pages](https://anargya-anubhawa.github.io/hacker-terminal/ "Github Pages")
 
 # Command list
 
