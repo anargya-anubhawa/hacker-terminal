@@ -8,7 +8,7 @@ function printWelcome() {
   var welcomemsg = new Typed('.welcomemsg',{
         strings : ["Welcome to Hacker Terminal  <br>This code is just for fun, this is not a real hacker terminal, 99% of everything is just UI. "],
         stringsElement: null, 
-        typeSpeed: 70, 
+        typeSpeed: 60, 
         backSpeed: 60,
         smartBackspace: true,
         showCursor: true,
